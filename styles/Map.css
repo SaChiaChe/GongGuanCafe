@@ -1,9 +1,13 @@
 .Map{
     border: black 10px double;
+    border-radius: 20px;
     height: 100%;
     width: 100%;
-    border-radius: 20px;
     background-color: white;
+}
+
+#Map-box{
+    height: 550px;
 }
 
 .Marker-info{
@@ -51,7 +55,8 @@
 }
 
 .Marker-info-href{
+    font-size: 12px; 
+    color: #4580DF;
     text-decoration: none;
-    color: #6A98E3;
-    font-weight: bold;
+    font-weight: 500;
 }

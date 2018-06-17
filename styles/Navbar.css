@@ -34,7 +34,7 @@
     height: 5px;
     bottom: 0;
     left: 0;
-    background-color: whitesmoke;
+    background-color: white;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
