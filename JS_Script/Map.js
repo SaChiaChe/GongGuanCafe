@@ -11,7 +11,7 @@ function myMap() {
 
     var loc = [{ lat: 25.017774, lng: 121.532638 }, { lat: 25.019195, lng: 121.532129 }];
     var title = ["葉子咖啡", "Apple Museum Café",];
-    var Messages = ["<a href =\"/pages/leaf_cafe.html\" class=\"Marker-info\">\
+    var Messages = ["<a href =\"/pages/leaf_cafe/leaf_cafe.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
                                 <img src =\"/images/Leaf_Cafe.jpg\" alt=\"葉子咖啡\" class=\"Marker-info-img\">\
@@ -26,7 +26,7 @@ function myMap() {
                             </div >\
                         </div >\
                     </a >",
-        "<a href =\"/pages/apple_museum_cafe.html\" class=\"Marker-info\">\
+        "<a href =\"/pages/apple_museum_cafe/apple_museum_cafe.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
                                 <img src =\"/images/Apple_Museum_Cafe.jpg\" alt=\"Apple Museum Cafe\" class=\"Marker-info-img\">\
