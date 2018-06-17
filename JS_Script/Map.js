@@ -24,6 +24,7 @@ function myMap() {
                                     106台北市大安區羅斯福路三段283巷14弄16-1號\
                                 </div >\
                             </div >\
+                            <a href =\"https://www.google.com/maps/place/%E8%91%89%E5%AD%90%E5%92%96%E5%95%A1/@25.017808,121.532826,20z/data=!4m12!1m6!3m5!1s0x0:0x794cabd82044c9fb!2scoco+Brownies!8m2!3d25.0178553!4d121.5326582!3m4!1s0x0:0x34d338a182055d27!8m2!3d25.017774!4d121.532638?hl=zh-TW\" class=\"Marker-info-href\" target=\"_blank\">在Google地圖上查看</a>\
                         </div >\
                     </a >",
         "<a href =\"/pages/apple_museum_cafe/apple_museum_cafe.html\" class=\"Marker-info\">\
@@ -39,6 +40,7 @@ function myMap() {
                                     106台北市大安區溫州街74巷3弄5號\
                                 </div >\
                             </div >\
+                            <a href =\"https://www.google.com.tw/maps/place/Apple+Museum+Cafe/@25.0191952,121.5321285,15z/data=!4m2!3m1!1s0x0:0xb315decf6977c921?sa=X&ved=0ahUKEwjAga3_hdrbAhXIWLwKHR-6AjcQ_BIIwwEwCg\" class=\"Marker-info-href\" target=\"_blank\">在Google地圖上查看</a>\
                         </div >\
                     </a >"];
     add_marker(loc, title, Messages, map);
