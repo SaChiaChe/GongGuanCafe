@@ -1,0 +1,49 @@
+.Map{
+    border: red 0px solid;
+    height: 100%;
+    width: 100%;
+}
+
+.Marker-info{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Marker-info-box{
+    width: 200px;
+    height: auto;
+    border: 5px black double;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;    
+}
+
+.Marker-info-img-box{
+    width: 100%;
+    height: auto;
+}
+
+.Marker-info-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Marker-info-text-box{
+    color: #910B10;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Marker-info-title{
+    border: 0px black solid;
+}
+
+.Marker-info-address{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+}
