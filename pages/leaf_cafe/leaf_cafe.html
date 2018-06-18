@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>公館 咖啡×文學散步</title>
-    <meta property="og:title" content="公館 咖啡×文學散步">
-    <meta property="og:description" content="公館 咖啡×文學散步">
+    <title>葉子咖啡　X　朱天心《古都》</title>
+    <meta property="og:title" content="葉子咖啡　X　朱天心《古都》">
+    <meta property="og:description" content="葉子咖啡　X　朱天心《古都》">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://media-cdn.tripadvisor.com/media/photo-s/0e/67/ce/90/a-must-visit-cafe-great.jpg">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
@@ -56,7 +56,7 @@
         <!-- Content START -->
         <link rel="stylesheet" href="/styles/Content.css">
         <div class="Content-box">
-            <h1>葉子咖啡　X　朱天心〈古都〉</h1>
+            <h1>葉子咖啡　X　朱天心《古都》</h1>
             <div class="img-box">
                 <img src="./images/01.jpg">
             </div>
@@ -90,9 +90,49 @@
                 <img src="./images/06.jpg">
             </div>
         </div>
+        <link rel="stylesheet" href="/styles/MessageBoard.css">
+        <!-- Message Board START -->
+        <div class="Msg-Board">
+            <div class="Msg-Board-Title">
+                留言板
+            </div>
+            <div class="Msg-Board-Content"></div>
+        </div>
+        <!-- Message Board END -->
+        <!-- Leave a Message -->
+        <div class="LeaveMsg-box">
+            <div class="Msg-Board-Title">
+                我要留言
+            </div>
+            <div class="LeaveMsg-Content">
+                <div class="LeaveMsg-inner-box">
+                    <div class="Name-box">
+                        <label for="ReplyName">我的名字：</label>
+                        <input id="ReplyName" name="ReplyName" class="Name-input" type="text" placeholder="王小明">
+                    </div>
+                    <div class="Msg-box">
+                        <label for="ReplyMsg">想說的話：</label>
+                        <textarea name="ReplyMsg" id="ReplyMsg" class="Msg-input" maxlength="150" placeholder="最多150字喔~~"></textarea>
+                    </div>
+                    <div class="Button-box">
+                        <button class="Button" id="add-Reply">留言</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Content END -->
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/JS_Script/InitializeFirebase.js"></script>
+    <!-- Upload Replies -->
+    <script src="/JS_Script/UploadReply.js"></script>
+    <script>UploadReply("LeafCafe");</script>
+    <!-- Display Replies -->
+    <script src="/JS_Script/DisplayReplies.js"></script>
+    <script>DisplayReplies("LeafCafe");</script>
 </body>
 
 </html>
