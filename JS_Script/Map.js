@@ -12,11 +12,13 @@ function myMap() {
     var loc = [
         { lat: 25.017774, lng: 121.532638 },
         { lat: 25.019195, lng: 121.532129 },
-        { lat: 25.020137, lng: 121.533584 }
+        { lat: 25.020137, lng: 121.533584 },
+        { lat: 25.030696, lng: 121.529969 }
     ];
     var title = [
         "葉子咖啡",
         "Apple Museum Café",
+        "羊毛とおはな·溫州",
         "羊毛とおはな"
     ];
     var Messages = [
@@ -63,12 +65,30 @@ function myMap() {
                             </div>\
                             <div class=\"Marker-info-text-box\">\
                                 <div class=\"Marker-info-title\">\
-                                    羊毛とおはな‧溫州\
+                                    羊毛とおはな·溫州\
                                 </div >\
                                 <div class=\"Marker-info-address\">\
                                     106台北市大安區新生南路三段60巷1號\
                                 </div >\
                                 <a href=\"https://www.google.com.tw/maps/place/%E7%BE%8A%E6%AF%9B%E8%88%87%E8%8A%B1+%E2%80%A7+%E6%BA%AB%E5%B7%9E+youmoutoohana+Coffee+Wenzhou/@25.020137,121.5313953,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a989030f4479:0xa8efd2cdb848f9f6!8m2!3d25.020137!4d121.533584\" target=\"_blank\" class=\"Marker-info-href\">\
+                                    在Google地圖上查看\
+                                </a>\
+                            </div >\
+                        </div >\
+                    </a >",
+        "<a href =\"/pages/wool_flower/wool_flower.html\" class=\"Marker-info\">\
+                        <div class=\"Marker-info-box\">\
+                            <div class=\"Marker-info-img-box\">\
+                                <img src =\"/images/Wool_Flower.jpg\" alt=\"羊毛とおはな\" class=\"Marker-info-img\">\
+                            </div>\
+                            <div class=\"Marker-info-text-box\">\
+                                <div class=\"Marker-info-title\">\
+                                    羊毛とおはな\
+                                </div >\
+                                <div class=\"Marker-info-address\">\
+                                    No. 12 Lane 37 Yongkang St, 大安區台北市106\
+                                </div >\
+                                <a href=\"https://www.google.com.tw/maps/place/%E7%BE%8A%E6%AF%9B%E8%88%87%E8%8A%B1/@25.030696,121.5277803,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a983c0edb8ff:0x5f4a25137fec69e7!8m2!3d25.030696!4d121.529969\" target=\"_blank\" class=\"Marker-info-href\">\
                                     在Google地圖上查看\
                                 </a>\
                             </div >\
