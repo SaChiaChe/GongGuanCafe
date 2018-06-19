@@ -8,7 +8,8 @@ function myMap() {
         //draggable: false  //不能移動or放大縮小(可用預設UI放大縮小)
     }
     var map = new google.maps.Map(document.getElementById("Map"), mapOptions);
-
+    // Google反向地理編碼，目前還懶得做，只用來查詢經緯度而已，有時間再用成可以輸入地址自己找到位置的方式
+    // https://developers.google.com/maps/documentation/geocoding/intro?hl=zh-tw
     var loc = [
         { lat: 25.017774, lng: 121.532638 },
         { lat: 25.019195, lng: 121.532129 },
