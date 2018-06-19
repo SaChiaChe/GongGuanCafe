@@ -39,7 +39,7 @@
 
 .Msg-box{
     width: 100%;
-    height: 140px;;
+    height: 110px;;
     border: red 0px solid;
     padding: 5px;
 }
@@ -133,4 +133,8 @@
 
 .Msg-Board-Content-Bubble-Time{
     text-align: end;
+}
+
+textarea {
+    resize: none;
 }

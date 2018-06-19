@@ -19,5 +19,7 @@ function UploadReply(Title) {
             Time: D.toUTCString(),
             FileName: Time
         });
+        $("#ReplyName").val("");
+        $("#ReplyMsg").val("");
     });
 }
