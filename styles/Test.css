@@ -1,0 +1,94 @@
+.Button-box{
+    border: black 0px solid;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.Button{
+    background-color: white;
+    height: auto;
+    width: 50%;
+    font-size: 32px;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Question-title{
+    border: 0px red solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.TestQuestionImg{
+    width: 100%;
+    height: 300px;
+    border: red 0px solid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#Q3Img0{
+    background-image: url(/images/ForTest/HANG.jpg);
+}
+
+#Q3Img1{
+    background-image: url(/images/ForTest/STAR.jpg);
+}
+
+#Q3Img2{
+    background-image: url(/images/ForTest/magician.jpg);
+}
+
+.PreResultPage-box{
+    width: 100%;
+    height: 300px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PreResultPage{
+    width: 50%;
+    height: 60px;
+    font-size: 32px;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResultUrl-box{
+    width: 100%;
+    height: 60px;
+    border: red 0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.ResultUrl{
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    font-size: 32px;
+    text-decoration: none;
+    color: #4580DF;
+}

@@ -26,7 +26,7 @@ function myMap() {
         "<a href =\"/pages/leaf_cafe/leaf_cafe.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
-                                <img src =\"/images/Leaf_Cafe.jpg\" alt=\"葉子咖啡\" class=\"Marker-info-img\">\
+                                <img src =\"/images/Cafe/Leaf_Cafe.jpg\" alt=\"葉子咖啡\" class=\"Marker-info-img\">\
                             </div>\
                             <div class=\"Marker-info-text-box\">\
                                 <div class=\"Marker-info-title\">\
@@ -44,7 +44,7 @@ function myMap() {
         "<a href =\"/pages/apple_museum_cafe/apple_museum_cafe.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
-                                <img src =\"/images/Apple_Museum_Cafe.jpg\" alt=\"Apple Museum Cafe\" class=\"Marker-info-img\">\
+                                <img src =\"/images/Cafe/Apple_Museum_Cafe.jpg\" alt=\"Apple Museum Cafe\" class=\"Marker-info-img\">\
                             </div>\
                             <div class=\"Marker-info-text-box\">\
                                 <div class=\"Marker-info-title\">\
@@ -62,7 +62,7 @@ function myMap() {
         "<a href =\"/pages/wool_flower/wool_flower.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
-                                <img src =\"/images/Wool_Flower.jpg\" alt=\"羊毛とおはな\" class=\"Marker-info-img\">\
+                                <img src =\"/images/Cafe/Wool_Flower.jpg\" alt=\"羊毛とおはな\" class=\"Marker-info-img\">\
                             </div>\
                             <div class=\"Marker-info-text-box\">\
                                 <div class=\"Marker-info-title\">\
@@ -80,7 +80,7 @@ function myMap() {
         "<a href =\"/pages/wool_flower/wool_flower.html\" class=\"Marker-info\">\
                         <div class=\"Marker-info-box\">\
                             <div class=\"Marker-info-img-box\">\
-                                <img src =\"/images/Wool_Flower.jpg\" alt=\"羊毛とおはな\" class=\"Marker-info-img\">\
+                                <img src =\"/images/Cafe/Wool_Flower.jpg\" alt=\"羊毛とおはな\" class=\"Marker-info-img\">\
                             </div>\
                             <div class=\"Marker-info-text-box\">\
                                 <div class=\"Marker-info-title\">\

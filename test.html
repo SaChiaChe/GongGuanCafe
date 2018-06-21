@@ -55,8 +55,15 @@
         <!-- Navbar END -->
         <!-- Content START -->
         <link rel="stylesheet" href="/styles/Content.css">
+        <link rel="stylesheet" href="/styles/Test.css">
         <div class="Content-box">
-            Aptitude Test
+            <h1>你適合哪一家咖啡廳？</h1>
+            <div class="img-box">
+                <img src="/images/ForTest/Test_Title.jpg" alt="?">
+            </div>
+            <div class="Button-box">
+                <button onclick="LoadPage()" class="Button" id="Start_Button">開始測驗</button>
+            </div>
         </div>
         <!-- Content END -->
     </div>
@@ -65,6 +72,7 @@
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
     <script src="/JS_Script/InitializeFirebase.js"></script>
     <script src="/JS_Script/RandomRecommend.js"></script>
+    <script src="/JS_Script/Test.js"></script>
 </body>
 
 </html>
