@@ -16,7 +16,7 @@ function UploadReply(Title) {
         db.collection(Title).doc(Time).set({
             Name: $("#ReplyName").val(),
             Msg: $("#ReplyMsg").val(),
-            Time: D.toUTCString(),
+            Time: D.toLocaleString(),
             FileName: Time
         });
         $("#ReplyName").val("");
