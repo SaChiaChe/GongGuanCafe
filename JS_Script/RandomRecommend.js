@@ -10,13 +10,11 @@ db.collection("ForRandomRecommend").onSnapshot(function (querySnapshot) {
     var RndId = RndInt(TitleList.length);
     var RndTitle = TitleList[RndId];
     var RndHref = "/pages/" + RndTitle + "/" + RndTitle + ".html";
-    console.log(RndHref);
     // Retry when Random Recommend to the same page
     while (RndHref == window.location.href.toString().split(window.location.host)[1]) {
         RndId = RndInt(TitleList.length);
         RndTitle = TitleList[RndId];
         RndHref = "/pages/" + RndTitle + "/" + RndTitle + ".html";
-        console.log(RndHref);
     }
     $("#RndRec").attr("href", RndHref);
 });
