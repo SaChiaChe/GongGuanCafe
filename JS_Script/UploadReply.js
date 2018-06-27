@@ -20,8 +20,8 @@ function UploadReply(Title) {
             FileName: Time
         });
         $("#ReplyName").val("");
-        $("#ReplyName").attr("placeholder", "王小名");
+        $("#ReplyName").attr("placeholder", "你的名字");
         $("#ReplyMsg").val("");
-        $("#ReplyMsg").attr("placeholder", "最多200字喔~~");
+        $("#ReplyMsg").attr("placeholder", "最多200字喔~~  &#10P.S.換行請打<br>，否則不會換行喔");
     });
 }
